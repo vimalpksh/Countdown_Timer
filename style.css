@@ -30,17 +30,18 @@ body {
 }
 
 .box {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 70px;
   text-align: center;
   background-color: ;
 }
 
 .box h2 {
   font-size: 20px;
+  font-weight: 500;
 }
 
-.box p {
+.box small {
   font-size: 10px;
 }
 
@@ -53,4 +54,40 @@ p {
   font-size: 50px;
   font-weight: 400;
   margin-top: 30px;
+}
+
+@media (min-width: 576px) {
+  .newyear {
+    font-size: 100px;
+  }
+  p {
+    font-size: 18px;
+  }
+
+  .box h2 {
+    font-size: 30px;
+  }
+  .box small {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .newyear {
+    font-size: 150px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+  .box h2 {
+    font-size: 50px;
+  }
+  .box {
+    width: 1560px;
+    height: 100px;
+  }
+  .box small {
+    font-size: 20px;
+  }
 }
